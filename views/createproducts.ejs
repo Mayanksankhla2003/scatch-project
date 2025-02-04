@@ -1,4 +1,4 @@
-<%- include('./partials/header') %> <% if(success.length>0){ %>
+<%- include('./partials/header') %> <% if(success.length > 0){ %>
 <div
     class="absolute top-5 left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 rounded-md bg-blue-500"
 >
@@ -17,7 +17,6 @@
         <main class="w-3/4 bg-white p-8 shadow ml-4">
             <h2 class="text-xl font-bold mb-4">Create New Product</h2>
             <form
-                autocomplete="off"
                 action="/products/create"
                 method="post"
                 enctype="multipart/form-data"
